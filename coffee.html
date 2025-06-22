@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assest/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+
+    <title>Coffee Shop</title>
+</head>
+
+<body>
+
+    <main>
+     <div class="text-center">
+        <h1 class="basic">Coffee Shop </h1>
+    </div>
+        <div class="container mt-5">
+            <div class="d-flex justify-content-between align-items-center mx-2">
+                <a class="basic"> المشروبات الساخنة <br>
+                    <small>Hot Drinks</small> </a>
+                <a class="basic more" href="#"> المزيد  </a>
+            </div>
+            <!-- Bootstrap Carousel -->
+            <div id="coffeeCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center gap-3">
+                             <div class="card-coffee">
+                                <img src="img/cup.png" alt="">
+                                <h1>
+                                    قهوة عربية
+                                </h1>
+                                <small>Arabic Coffee</small>
+                            </div>
+                             <div class="card-coffee">
+                                <img src="img/cup.png" alt="">
+                                <h1>
+                                    قهوة باردة</h1>
+                                <small>Ice Coffee</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center gap-3">
+                             <div class="card-coffee">
+                                <img src="img/cup.png" alt="">
+                                <h1>
+                                    قهوة باردة
+                                </h1>
+                                <small>Ice Coffee</small>
+                            </div>
+                            <div class="card-coffee">
+                                <img src="img/cup.png" alt="">
+                                <h1>
+                                    قهوة باردة
+                                </h1>
+                                <small>Ice Coffee</small>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- أزرار التنقل -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#coffeeCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#coffeeCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+        </div>
+
+
+<div class="container mt-5">
+  <div class="d-flex justify-content-between align-items-center mx-2">
+    <a class="basic"> المشروبات الساخنة <br>
+      <small>Hot Drinks</small>
+    </a>
+  </div>
+
+  <!-- كروت المشروبات بدون كاروسال -->
+  <div class="row g-3">
+    <div class="col-6 col-md-4 col-lg-3">
+     <a class="links" href=""> <div class="card-coffee text-center">
+        <img src="img/cup.png" alt="">
+        <h1>قهوة عربية</h1>
+        <small>Arabic Coffee</small>
+      </div>
+      </a>
+    </div>
+<div class="col-6 col-md-4 col-lg-3">
+     <a class="links" href=""> <div class="card-coffee text-center">
+        <img src="img/cup.png" alt="">
+        <h1>قهوة باردة</h1>
+        <small>Ice Coffee</small>
+      </div>
+      </a>
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+     <a class="links" href=""> <div class="card-coffee text-center">
+        <img src="img/cup.png" alt="">
+        <h1>قهوة باردة</h1>
+        <small>Ice Coffee</small>
+      </div>
+      </a>
+    </div>
+    <div class="col-6 col-md-4 col-lg-3">
+     <a class="links" href=""> <div class="card-coffee text-center">
+        <img src="img/cup.png" alt="">
+        <h1>قهوة باردة</h1>
+        <small>Ice Coffee</small>
+      </div>
+      </a>
+    </div>
+
+    <!-- أضف المزيد من الكروت حسب الحاجة -->
+  </div>
+</div>
+
+
+
+        
+    </main>
+
+   <footer class="footer fixed-bottom">
+  <div class="container">
+    <div class="row text-center g-0">
+      <div class="col-3">
+        <a href="index.html" class="footer-link  d-flex flex-column align-items-center">
+          <i class="bi bi-house-door-fill footer-icon"></i>
+          <small>الرئيسية</small>
+        </a>
+      </div>
+      <div class="col-3">
+        <a href="coffee.html" class="footer-link d-flex flex-column align-items-center">
+          <i class="bi bi-cup-hot footer-icon"></i>
+          <small>ساخنة</small>
+        </a>
+      </div>
+      <div class="col-3">
+        <a href="#" class="footer-link d-flex flex-column align-items-center">
+          <i class="bi bi-cup-straw footer-icon"></i>
+          <small>باردة</small>
+        </a>
+      </div>
+      <div class="col-3">
+        <a href="#" class="footer-link d-flex flex-column align-items-center">
+          <i class="bi bi-cake2 footer-icon"></i>
+          <small>حلويات</small>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
